@@ -1,6 +1,6 @@
 // To enable only Modernize checks in Clang-Tidy
 // go to Settings/Preferences | Editor | Inspections | C/C++ | Clang-Tidy
-// and provide: *,modernize-* in options
+// and provide: -*,modernize-* in options
 
 #include <functional>
 #include <vector>

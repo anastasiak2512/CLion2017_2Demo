@@ -3,7 +3,7 @@
 
 find_package(Qt5Widgets REQUIRED)
 
-set(SOURCE_FILES simple_qt_app.cpp long_array.cpp)
+set(SOURCE_FILES simple_qt_app.cpp)
 add_executable(simple_qt_ap ${SOURCE_FILES})
 target_link_libraries(simple_qt_ap Qt5::Widgets)
 

@@ -1,6 +1,6 @@
 // To enable only Google checks in Clang-Tidy
 // go to Settings/Preferences | Editor | Inspections | C/C++ | Clang-Tidy
-// and provide: *,google-* in options
+// and provide: -*,google-* in options
 
 void avoid_c_style_cast(char ch, double d, long long lng)
 {
